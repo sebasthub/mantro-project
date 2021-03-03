@@ -18,3 +18,28 @@ div#subc {
     background-color: brown;
     margin-top: -20px;
 }
+/*configuracao dos botões*/
+div#subc ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 900px;
+}
+div#subc li {
+    display:inline-block;
+    padding: 10px;
+    margin: 3px;
+    transition: background-color 1s;
+}
+div#subc a {
+    text-decoration: none;
+    color: rgb(231,213,13);
+}
+div#subc li:hover {
+    background-color: rgba(0,0,0,.5);
+}
+/*configuracao do corpo*/
+body {
+    background-color: black;
+}
