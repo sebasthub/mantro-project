@@ -50,7 +50,8 @@ h1{
 }
 section#corpo {
     display: block;
-}
-div#curdo {
+    width: 900px;
     background-color: gray;
+    float: none;
 }
+
