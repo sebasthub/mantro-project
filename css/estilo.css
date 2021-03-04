@@ -19,6 +19,7 @@ header#cabecalho h2 {
 div#subc {
     background-color: brown;
     margin-top: -20px;
+    margin-bottom: 0;
 }
 /*configuracao dos botões*/
 div#subc ul {
@@ -52,6 +53,6 @@ section#corpo {
     display: block;
     width: 900px;
     background-color: gray;
-    float: none;
+    margin: -20px auto 0px auto;
 }
 
