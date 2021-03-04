@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /*configurações de cabecalio*/
 header#cabecalho h1 {
     font-family: 'Orbitron', sans-serif;
@@ -54,5 +55,10 @@ section#corpo {
     width: 900px;
     background-color: gray;
     margin: -20px auto 0px auto;
+}
+section#corpo p {
+    text-align: justify;
+    font: 'Roboto',sans-serif;
+    font-size: 12;
 }
 
