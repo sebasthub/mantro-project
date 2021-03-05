@@ -58,7 +58,7 @@ section#corpo {
 }
 section#corpo p {
     text-align: justify;
-    font: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12;
 }
 
