@@ -66,4 +66,7 @@ section#corpo h1 {
     font-family: Arial,sans-serif;
     text-align: center;
 }
-
+/*formatação de imagem*/
+section#corpo img {
+    margin: 33px;
+}
