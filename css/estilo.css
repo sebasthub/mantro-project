@@ -60,13 +60,39 @@ section#corpo p {
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-size: 12;
-    
+    padding: 10px;
 }
 section#corpo h1 {
     font-family: Arial,sans-serif;
     text-align: center;
 }
 /*formatação de imagem*/
-section#corpo img {
-    margin: 33px;
+
+#slider {
+    overflow: hidden;
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img {
+    float: inline-start;
+    width: 20%;
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    45% {
+        left: 0;
+    }
+    50% {
+        left: -100%;
+    }
+    95% {
+        left: -100%;
+    }
 }
