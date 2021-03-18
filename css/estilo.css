@@ -19,7 +19,7 @@ header#cabecalho h2 {
 }
 div#subc {
     background-color: brown;
-    margin-top: -20px;
+    margin-top: 0px;
     margin-bottom: 0;
 }
 /*configuracao dos botões*/
@@ -27,7 +27,7 @@ div#subc ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: -10px;
+    top: 1px;
     left: 900px;
 }
 div#subc li {
@@ -50,11 +50,14 @@ body {
 h1{
     font-size: 25px;
 }
+h2 {
+    font-size: 14pt;
+}
 section#corpo {
     display: block;
     width: 900px;
     background-color: gray;
-    margin: -20px auto 0px auto;
+    margin: auto auto 0px auto;
 }
 section#corpo p {
     text-align: justify;
@@ -65,6 +68,7 @@ section#corpo p {
 section#corpo h1 {
     font-family: Arial,sans-serif;
     text-align: center;
+    font-weight: bolder;
 }
 /*formatação de imagem*/
 
