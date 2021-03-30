@@ -49,21 +49,34 @@ article{
 }
 .centro{
     text-align: center;
-    float:unset;
+    float:none;
 }
 .artigoTitulo{
     background-color: grey;
     font-size: 16pt;
-    width: 205px;
+    padding: 2px 2px 2px 2px;
 }
 .artigoTexto{
     background-color: grey;
     font-size: 14;
-    float: left;
 }
 .artigoImagem{
     background-color: grey;
     float: right;
+    padding: 3px 3px 3px 3px;
+}
+.artigoDiv {
+    background-color: grey;
+    height: 190px;
+    padding: 3px 3px 3px 3px;
+}
+.artigoButao{
+    float: right;
+    color: black;
+    font-size: 17pt;
+    border: 2px 2px 2px 2px;
+    border-color: black;
+    text-decoration: none;
 }
 body {
     background-color: lightgray;
