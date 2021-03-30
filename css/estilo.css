@@ -44,6 +44,27 @@ div#subc li:hover {
     background-color: rgba(0,0,0,.5);
 }
 /*configuracao do corpo*/
+article{
+    background-color: lightgray;
+}
+.centro{
+    text-align: center;
+    float:unset;
+}
+.artigoTitulo{
+    background-color: grey;
+    font-size: 16pt;
+    width: 205px;
+}
+.artigoTexto{
+    background-color: grey;
+    font-size: 14;
+    float: left;
+}
+.artigoImagem{
+    background-color: grey;
+    float: right;
+}
 body {
     background-color: lightgray;
 }
