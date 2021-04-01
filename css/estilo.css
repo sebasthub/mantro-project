@@ -68,7 +68,7 @@ article{
 .artigoDiv {
     background-color: grey;
     height: 190px;
-    padding: 3px 3px 3px 3px;
+    margin: 10px 10px 10px 10px;
 }
 .artigoButao{
     float: right;
