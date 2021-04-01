@@ -46,10 +46,12 @@ div#subc li:hover {
 /*configuracao do corpo*/
 article{
     background-color: lightgray;
+    padding: 10px;
 }
 .centro{
     text-align: center;
     float:none;
+    margin: 10px;
 }
 .artigoTitulo{
     background-color: grey;
